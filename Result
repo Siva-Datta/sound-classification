@@ -1,0 +1,55 @@
+*********SCORES
+
+++++++++++Before Normalising
+
+@DataFrame
+ knn	
+ only averages = 0.67
+ only variance = 0.17	
+ both variance and averages = 0.17
+
+++++++++After Normalising
+
+--------knn
+@DataFrame(60)
+only average = 0.83
+only variance = 0.5
+both =	0.83
+@DataFrame(600)
+only average = 0.57
+time : 0.087
+
+@cls
+only average = 0.95
+time: 9.49
+ 
+--------Random Forest
+@Dataframe(600)
+Score: 0.5
+Time: 0.2
+@cls
+Score: 0.90
+Time: 1.24
+
+-------SVC
+@DataFrame(600)
+Score: 0.1
+@cls
+score:0.5343
+
+-------Linear SVC
+@DataFrame(600)
+Score: 0.333
+Time: 0.045
+@cls
+score: 0.53
+Time:0.56
+
+-------cnn
+@DataFrame(600)
+Score: 0.57
+Time=0.81
+@cls
+Score: 0.93
+Time: 163.01
+
